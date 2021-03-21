@@ -36,11 +36,11 @@ flags.DEFINE_string(
 # flags.DEFINE_string('label0', '', 'Name of class[0] label')
 # flags.DEFINE_string('label1', '', 'Name of class[1] label')
 # and so on.
-flags.DEFINE_string('Header', '', 'Header')
-flags.DEFINE_string('Table', '', 'Table')
-flags.DEFINE_string('Paragraph', '', 'Paragraph')
-flags.DEFINE_string('Blue', '', 'Blue')
-flags.DEFINE_string('Red', '', 'Red')
+flags.DEFINE_string('label0', '', 'Header')
+flags.DEFINE_string('label1', '', 'Table')
+flags.DEFINE_string('label2', '', 'Paragraph')
+flags.DEFINE_string('label3', '', 'Blue')
+flags.DEFINE_string('label4', '', 'Red')
 
 flags.DEFINE_string("img_path", "", "Path to images")
 FLAGS = flags.FLAGS
